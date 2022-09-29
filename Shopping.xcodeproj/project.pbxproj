@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3263376228DD319C00CCF7FD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263376128DD319C00CCF7FD /* DetailView.swift */; };
+		3263376428DD320000CCF7FD /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263376328DD320000CCF7FD /* TopSellingView.swift */; };
+		3263376628DE3A8B00CCF7FD /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263376528DE3A8B00CCF7FD /* NearYouView.swift */; };
 		32D4847E28DD0509002B5375 /* ShoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4847D28DD0509002B5375 /* ShoppingApp.swift */; };
 		32D4848028DD0509002B5375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4847F28DD0509002B5375 /* ContentView.swift */; };
 		32D4848228DD050A002B5375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D4848128DD050A002B5375 /* Assets.xcassets */; };
 		32D4848528DD050A002B5375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D4848428DD050A002B5375 /* Preview Assets.xcassets */; };
+		32D4848C28DD0C1C002B5375 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4848B28DD0C1C002B5375 /* HomeScreen.swift */; };
+		32D4848E28DD0C59002B5375 /* OnBoardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4848D28DD0C59002B5375 /* OnBoardScreenView.swift */; };
+		32D4849228DD15F7002B5375 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4849128DD15F7002B5375 /* ImageData.swift */; };
+		32D4849428DD1603002B5375 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4849328DD1603002B5375 /* NearYouData.swift */; };
+		32D4849628DD2AF1002B5375 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4849528DD2AF1002B5375 /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3263376128DD319C00CCF7FD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3263376328DD320000CCF7FD /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		3263376528DE3A8B00CCF7FD /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
 		32D4847A28DD0509002B5375 /* Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D4847D28DD0509002B5375 /* ShoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingApp.swift; sourceTree = "<group>"; };
 		32D4847F28DD0509002B5375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32D4848128DD050A002B5375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D4848428DD050A002B5375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32D4848B28DD0C1C002B5375 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		32D4848D28DD0C59002B5375 /* OnBoardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardScreenView.swift; sourceTree = "<group>"; };
+		32D4849128DD15F7002B5375 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		32D4849328DD1603002B5375 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		32D4849528DD2AF1002B5375 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,9 @@
 		32D4847C28DD0509002B5375 /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
+				32D4849028DD15A9002B5375 /* Models */,
+				32D4848F28DD0CF5002B5375 /* HomeScreenViews */,
+				32D4848D28DD0C59002B5375 /* OnBoardScreenView.swift */,
 				32D4847D28DD0509002B5375 /* ShoppingApp.swift */,
 				32D4847F28DD0509002B5375 /* ContentView.swift */,
 				32D4848128DD050A002B5375 /* Assets.xcassets */,
@@ -65,6 +84,27 @@
 				32D4848428DD050A002B5375 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32D4848F28DD0CF5002B5375 /* HomeScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				32D4848B28DD0C1C002B5375 /* HomeScreen.swift */,
+				32D4849528DD2AF1002B5375 /* FruitCardView.swift */,
+				3263376128DD319C00CCF7FD /* DetailView.swift */,
+				3263376328DD320000CCF7FD /* TopSellingView.swift */,
+				3263376528DE3A8B00CCF7FD /* NearYouView.swift */,
+			);
+			path = HomeScreenViews;
+			sourceTree = "<group>";
+		};
+		32D4849028DD15A9002B5375 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32D4849128DD15F7002B5375 /* ImageData.swift */,
+				32D4849328DD1603002B5375 /* NearYouData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +178,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D4848028DD0509002B5375 /* ContentView.swift in Sources */,
+				3263376228DD319C00CCF7FD /* DetailView.swift in Sources */,
+				3263376428DD320000CCF7FD /* TopSellingView.swift in Sources */,
 				32D4847E28DD0509002B5375 /* ShoppingApp.swift in Sources */,
+				32D4848E28DD0C59002B5375 /* OnBoardScreenView.swift in Sources */,
+				32D4849428DD1603002B5375 /* NearYouData.swift in Sources */,
+				3263376628DE3A8B00CCF7FD /* NearYouView.swift in Sources */,
+				32D4849628DD2AF1002B5375 /* FruitCardView.swift in Sources */,
+				32D4849228DD15F7002B5375 /* ImageData.swift in Sources */,
+				32D4848C28DD0C1C002B5375 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
