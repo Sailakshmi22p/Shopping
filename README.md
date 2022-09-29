@@ -1,4 +1,4 @@
-# Shopping
+# Shopping Veggies
 
 In this App, you can shop through all the items available, go through details of each item like 
 the price, 
